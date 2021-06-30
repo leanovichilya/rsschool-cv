@@ -14,7 +14,8 @@
 
 ### About me
 
-    My goal is to become a front-end developer. I like to develop in the field of web development, get new necessary knowledge, improve my skills.
+    My goal is to become a front-end developer. I like to develop in the field of web development, get new necessary knowledge, 
+    improve my skills.
 
 ### Skills
 
@@ -30,7 +31,8 @@
     - SASS
     - Pug
 
-### Portfolio:
+### Code examples:
+- coming soon
 
 ### Experience:
 - coming soon
