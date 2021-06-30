@@ -1,5 +1,6 @@
 1. Ilya Leanovich
-2. <details>
+2. 
+<details>
   <summary>Contacts</summary>
    - Phone - +375257414527
    - Viber - +375257414527
