@@ -5,31 +5,31 @@
 <details>
    <summary>Contacts</summary>
 
-       1. Phone - +375257414527
-       2. Viber - +375257414527
-       3. Skype - +375257414527
-       4. E-mail - leanovich.ilya@gmail.com
+1. Phone - +375257414527
+2. Viber - +375257414527
+3. Skype - +375257414527
+4. E-mail - leanovich.ilya@gmail.com
 
    </details>
 
 ### About me
 
-    My goal is to become a front-end developer. I like to develop in the field of web development, get new necessary knowledge, 
-    improve my skills.
+My goal is to become a front-end developer. I like to develop in the field of web development, get new necessary knowledge,
+improve my skills.
 
 ### Skills
 
-    - HTML
-    - CSS
-    - JavaScript
-    - Git
-    - PhpStorm
-    - VSCode
-    - Bootstrap
-    - BEM
-    - Gulp
-    - SASS
-    - Pug
+- HTML
+- CSS
+- JavaScript
+- Git
+- PhpStorm
+- VSCode
+- Bootstrap
+- BEM
+- Gulp
+- SASS
+- Pug
 
 ### Code examples:
 - coming soon
@@ -44,4 +44,4 @@
 - [BrainsCloud](https://www.youtube.com/channel/UCqGjCzCi5zG3RjJUA-ZDBkQ)
 - [HTML Academy](https://htmlacademy.ru/profile/ilya_leanovich/progress)
 
-### English level A1
+### English level **A1**
