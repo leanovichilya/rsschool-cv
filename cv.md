@@ -32,7 +32,7 @@ improve my skills.
 - Pug
 
 ### Code examples:
-- coming soon
+- [Codewars solutions](https://www.codewars.com/users/leanovichilya/completed_solutions)
 
 ### Experience:
 - coming soon
@@ -44,4 +44,4 @@ improve my skills.
 - [BrainsCloud](https://www.youtube.com/channel/UCqGjCzCi5zG3RjJUA-ZDBkQ)
 - [HTML Academy](https://htmlacademy.ru/profile/ilya_leanovich/progress)
 
-### English level **A1**
+### English level _A1_
