@@ -3,4 +3,43 @@
 
 body{
   font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
+.wrapper {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #005662;
+  padding: 20px;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__title {
+  font-size: 40px;
+}
+
+.navigation {
+  width: 50%;
+}
+
+.navigation__list {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.navigation__link {
+  color: #fff;
+}
+
+.navigation__link:hover {
+  color: #FFE8B8;
 }
