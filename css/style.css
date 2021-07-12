@@ -1,7 +1,7 @@
-@import "reset.css";
-@import "./fonts.css";
+@import 'reset.css';
+@import './fonts.css';
 
-body{
+body {
   font-family: 'Roboto', sans-serif;
   background-color: #81b9bf;
   color: #fff;
@@ -42,7 +42,7 @@ body{
 }
 
 .navigation__link:hover {
-  color: #FFE8B8;
+  color: #ffe8b8;
 }
 
 /* Section about-me */
@@ -52,14 +52,14 @@ body{
   align-items: center;
   justify-content: center;
   padding: 120px 20px 90px;
-  background-color: #FFE8B8;
+  background-color: #ffe8b8;
   color: #005662;
 }
 
 .about-me__photo {
   max-width: 250px;
   height: 250px;
-  border: 10px solid #005662;
+  border: 5px solid #005662;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -79,4 +79,23 @@ body{
 
 .about-me__description {
   margin-top: 20px;
+}
+
+/* Profile */
+/* Section code */
+.profile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills {
+  background-color: #005662;
+  width: 50%;
+  padding: 20px 0 20px 20px;
+}
+
+.education {
+  background-color: #ffffff;
+  width: 50%;
+  padding: 20px;
 }

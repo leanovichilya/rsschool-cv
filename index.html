@@ -1,60 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Title</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <h1 class="header__title">Leanovich Ilya</h1>
+        <nav class="header__navigation navigation">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">Portfolio</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">About</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <!-- End Header -->
 
-<div class="wrapper">
-  <header class="header">
+      <!-- Start Main -->
+      <main class="main">
+        <!-- Start section About-me -->
+        <section class="about-me">
+          <img
+            src="assets/img/photo.jpg"
+            alt="Photo Leanovich Ilya"
+            class="about-me__photo"
+          />
+          <h2 class="about-me__name">Ilya Leanovich</h2>
+          <h3 class="about-me__profession">Web developer</h3>
+          <p class="about-me__description">
+            My goal is to become a front-end developer. I like to develop in the
+            field of web development, get new necessary knowledge, improve my
+            skills.
+          </p>
+        </section>
+        <!-- End section About-me -->
 
-      <h1 class="header__title">Leanovich Ilya</h1>
-      <nav class="header__navigation navigation">
-        <ul class="navigation__list">
-          <li class="navigation__item">
-            <a class="navigation__link" href="#">Portfolio</a>
-          </li>
-          <li class="navigation__item">
-            <a class="navigation__link" href="#">About</a>
-          </li>
-          <li class="navigation__item">
-            <a class="navigation__link" href="#">Contact</a>
-          </li>
-        </ul>
-      </nav>
+        <!-- Start Profile -->
+        <div class="profile">
+          <!-- Start section code -->
+          <section class="skills">
+            <div class="skills__wrap">
+              <h2>My skills:</h2>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Git</li>
+                <li>PhpStorm</li>
+                <li>VSCode</li>
+                <li>Bootstrap</li>
+                <li>BEM</li>
+                <li>Gulp</li>
+                <li>SASS</li>
+                <li>Pug</li>
+              </ul>
+            </div>
 
-  </header>
-  <!-- End Header -->
+            <div class="code__examples">
+              <code> bla bla bla </code>
+            </div>
+          </section>
+          <!-- End section code -->
 
-  <!-- Start Main -->
-  <main class="main">
+          <!-- Start section education -->
+          <section class="education">
+            <h2>Education:</h2>
+            <ul>
+              <li>
+                <a
+                  href="https://www.bsuir.by/ru/kaf-piks/programmiruemye-mobilnye-sistemy"
+                  >Belarusian State University of Informatics and
+                  Radioelectronics</a
+                >
+              </li>
+              <li>
+                <a href="https://learn.javascript.ru/"
+                  >Современный учебник JavaScript</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.youtube.com/channel/UCedskVwIKiZJsO8XdJdLKnA"
+                  >Фрилансер по жизни - IT и фриланс</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.youtube.com/channel/UCqGjCzCi5zG3RjJUA-ZDBkQ"
+                  >BrainsCloud</a
+                >
+              </li>
+              <li>
+                <a href="https://htmlacademy.ru/profile/ilya_leanovich/progress"
+                  >HTML Academy</a
+                >
+              </li>
+            </ul>
+          </section>
+          <!-- End section education -->
+        </div>
+        <!-- End Profile -->
+      </main>
+      <!-- End Main -->
 
-    <!-- Start section About-me -->
-    <section class="about-me">
-
-        <img src="assets/img/photo.jpg" alt="Photo Leanovich Ilya" class="about-me__photo">
-        <h2 class="about-me__name">Ilya Leanovich</h2>
-        <h3 class="about-me__profession">Web developer</h3>
-        <p class="about-me__description">
-          My goal is to become a front-end developer. I like to develop in the field of web development, get new necessary
-          knowledge,
-          improve my skills.
-        </p>
-
-    </section>
-    <!-- End section About-me -->
-
-  </main>
-  <!-- End Main -->
-
-  <footer class="footer">
-
-  </footer>
-</div>
-
-</body>
+      <footer class="footer"></footer>
+    </div>
+  </body>
 </html>
