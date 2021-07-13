@@ -49,26 +49,39 @@
         <!-- Start Profile -->
         <div class="profile">
           <!-- Start section code -->
-          <section class="skills">
-            <div class="skills__wrap">
-              <h2>My skills:</h2>
-              <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Git</li>
-                <li>PhpStorm</li>
-                <li>VSCode</li>
-                <li>Bootstrap</li>
-                <li>BEM</li>
-                <li>Gulp</li>
-                <li>SASS</li>
-                <li>Pug</li>
+          <section class="experience">
+            <div class="experience__skills skills">
+              <h2 class="skills__title">My skills:</h2>
+              <ul class="skills__list">
+                <li class="skills__item">HTML</li>
+                <li class="skills__item">CSS</li>
+                <li class="skills__item">JavaScript</li>
+                <li class="skills__item">Git</li>
+                <li class="skills__item">PhpStorm</li>
+                <li class="skills__item">VSCode</li>
+                <li class="skills__item">Bootstrap</li>
+                <li class="skills__item">BEM</li>
+                <li class="skills__item">Gulp</li>
+                <li class="skills__item">SASS</li>
+                <li class="skills__item">Pug</li>
               </ul>
             </div>
 
-            <div class="code__examples">
-              <code> bla bla bla </code>
+            <div class="experience__code code">
+              <h2 class="code__title">Code examples:</h2>
+              <code class="code__example">
+                module.exports = function towelSort(matrix) {<br>
+                if (!Array.isArray(matrix)<br>
+                || matrix.length === 0) {<br>
+                return [];<br>
+                }<br>
+                <br>
+                matrix<br>
+                .map((item, index) => (index % 2 !== 0<br>
+                ? item.reverse() : item));<br>
+                return [...matrix];<br>
+                };<br>
+              </code>
             </div>
           </section>
           <!-- End section code -->

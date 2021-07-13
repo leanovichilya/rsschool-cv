@@ -82,18 +82,67 @@ body {
 }
 
 /* Profile */
-/* Section code */
+/* Block Profile */
 .profile {
   display: flex;
   justify-content: space-between;
 }
 
-.skills {
+/* Section Experience */
+/* Block Skills */
+.experience {
   background-color: #005662;
   width: 50%;
   padding: 20px 0 20px 20px;
 }
 
+.skills {
+  padding: 20px;
+}
+
+.skills__title {
+  font-size: 30px;
+  letter-spacing: 5px;
+}
+
+.skills__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skills__item {
+  position: relative;
+  margin-right: 5%;
+  margin-top: 5%;
+  padding: 15px;
+  border: 1px solid #ffe8b8;
+}
+
+/* Block code */
+.code {
+  padding: 20px;
+}
+
+.code__title {
+  font-size: 30px;
+  letter-spacing: 5px;
+}
+
+.code__example {
+  display: block;
+  padding: 5px;
+  margin-top: 5%;
+  border: 1px solid #ffe8b8;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #00838e;
+
+  line-height: 20px;
+}
+
+/* Section education */
 .education {
   background-color: #ffffff;
   width: 50%;
