@@ -158,4 +158,28 @@ body {
 }
 
 /* Block Study */
+.study__title {
+  font-size: 30px;
+}
 
+.study__list {
+  margin-top: 20px;
+}
+
+.study__item {
+  margin-top: 10px;
+}
+
+/* Block Solutions */
+.solutions__title {
+  font-size: 30px;
+  margin-top: 10%;
+}
+
+.solutions__list {
+  margin-top: 10px;
+}
+
+.solutions__item {
+  margin-top: 10px;
+}
