@@ -197,6 +197,16 @@ body {
   margin-top: 10px;
 }
 
+/* Block English */
+.english__title {
+  font-size: 30px;
+  margin-top: 10%;
+}
+
+.english__title span {
+  text-decoration: underline;
+}
+
 /* Section Projects */
 .projects {
   padding: 20px;
