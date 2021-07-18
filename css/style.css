@@ -57,41 +57,54 @@ body {
   color: #ffe8b8;
 }
 
-/* Section about-me */
-.about-me {
+/* Section Info */
+.info {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  padding: 120px 20px 90px;
+  padding: 20px;
   background-color: #ffe8b8;
-  color: #005662;
 }
 
-.about-me__photo {
-  max-width: 300px;
+.info__photo {
+  max-width: 250px;
   height: auto;
-  border: 5px solid #005662;
+  border: 3px solid #005662;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
 }
 
-.about-me__name {
-  margin-top: 20px;
-  font-size: 30px;
-  font-weight: 700;
+.info__list {
+  width: 40%;
 }
 
-.about-me__profession {
-  margin-top: 20px;
-  font-size: 20px;
-  font-weight: 700;
+.info__item {
+  margin-bottom: 5px;
 }
 
-.about-me__description {
-  margin-top: 20px;
+.info__item:last-child {
+  margin-bottom: 0;
 }
+
+.info__link {
+  display: block;
+  padding: 10px;
+  border: 2px solid #005662;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-weight: 700;
+  color: #005662;
+  transition: all .5s;
+}
+
+.info__link:hover {
+  color: #4fb3be;
+  border-color: #4fb3be;
+}
+
+/* Section About-me */
 
 /* Profile */
 /* Block Profile */
