@@ -50,6 +50,7 @@ body {
 
 .navigation__link {
   color: #fff;
+  transition: color .5s;
 }
 
 .navigation__link:hover {
@@ -162,6 +163,7 @@ body {
 
 .education a {
   color: inherit;
+  transition: color .5s;
 }
 
 .education li:hover a {
@@ -213,11 +215,6 @@ body {
   border: 3px solid #005662;
 }
 
-.slider__wrapper:hover .slider__button {
-  background-color: #005662;
-  opacity: 0.5;
-}
-
 .slider {
   max-width: 100%;
   overflow: hidden;
@@ -236,6 +233,11 @@ body {
   height: 100%;
   opacity: 0;
   transition: all 0.5s;
+}
+
+.slider__wrapper:hover .slider__button {
+  background-color: #005662;
+  opacity: 0.5;
 }
 
 .button__prev {
@@ -258,13 +260,14 @@ body {
 .footer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 20px;
   background-color: #005662;
 }
 
 /* Section Contacts */
 .contacts {
-  width: 33%;
+  width: 40%;
 }
 
 .contacts__list {
@@ -274,6 +277,15 @@ body {
 
 .contacts__item {
   margin-right: 10px;
+  transition: transform .5s;
+}
+
+.contacts__item:hover{
+  transform: translateY(-5px);
+}
+
+.contacts__item:last-child {
+  margin-right: 0;
 }
 
 .contacts__icon {
@@ -283,12 +295,11 @@ body {
 
 /* Section My repository */
 .repository {
-  width: 33%;
+  width: 40%;
 }
 
-.repository__image {
-  width: 50px;
-  height: 50px;
+.repository__list {
+  margin-top: 20px;
 }
 
 .repository__link {
@@ -297,10 +308,34 @@ body {
 }
 
 .repository__image {
+  width: 30px;
+  height: 30px;
   margin-right: 10px;
+  transition: transform .5s;
+}
+
+.repository__image:hover {
+  transform: translateY(-5px);
+}
+
+.repository__image:last-child {
+  margin-right: 0;
 }
 
 /* Aside RS School */
 .rsschool {
-  width: 33%;
+  width: 20%;
+}
+
+.rsschool__image {
+  height: 50px;
+}
+
+.repository__description {
+  color: #ffffff;
+  transition: color .5s;
+}
+
+.repository__description:hover {
+  color: #ffe8b8;
 }
