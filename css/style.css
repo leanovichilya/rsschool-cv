@@ -7,6 +7,17 @@ body {
   color: #fff;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
 .wrapper {
   max-width: 960px;
   margin: 0 auto;
@@ -149,11 +160,11 @@ body {
   color: #005662;
 }
 
-.education a{
+.education a {
   color: inherit;
 }
 
-.education li:hover a{
+.education li:hover a {
   color: #4fb3be;
 }
 
@@ -182,4 +193,61 @@ body {
 
 .solutions__item {
   margin-top: 10px;
+}
+
+/* Section Projects */
+.projects {
+    padding: 20px;
+  background-color: #005662;
+}
+
+.projects__title {
+  font-size: 30px;
+  text-align: center;
+}
+
+.slider__wrapper {
+  position: relative;
+  margin-top: 20px;
+}
+
+.slider__wrapper:hover .slider__button {
+  background-color: #005662;
+  opacity: .5;
+}
+
+.slider {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.slider__line {
+  display: flex;
+  background-color: #4fb3be;
+  transition: all ease 1s;
+}
+
+.slider__button {
+  position: absolute;
+  background-color: transparent;
+  width: 5%;
+  height: 100%;
+  opacity: 0;
+  transition: all .5s;
+}
+
+.button__prev {
+  top: 0;
+  left: 0;
+}
+
+.button__next {
+  top: 0;
+  right: 0;
+}
+
+.arrow {
+  font-size: 30px;
+  font-weight: 900;
+  color: #ffffff;
 }
