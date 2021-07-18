@@ -197,23 +197,25 @@ body {
 
 /* Section Projects */
 .projects {
-    padding: 20px;
-  background-color: #005662;
+  padding: 20px;
+  background-color: #ffe8b8;
 }
 
 .projects__title {
   font-size: 30px;
   text-align: center;
+  color: #000;
 }
 
 .slider__wrapper {
   position: relative;
   margin-top: 20px;
+  border: 3px solid #005662;
 }
 
 .slider__wrapper:hover .slider__button {
   background-color: #005662;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .slider {
@@ -233,7 +235,7 @@ body {
   width: 5%;
   height: 100%;
   opacity: 0;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 .button__prev {
