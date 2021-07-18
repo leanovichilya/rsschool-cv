@@ -69,8 +69,8 @@ body {
 }
 
 .about-me__photo {
-  max-width: 250px;
-  height: 250px;
+  max-width: 300px;
+  height: auto;
   border: 5px solid #005662;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
