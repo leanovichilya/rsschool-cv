@@ -256,11 +256,17 @@ body {
 
 /* Footer */
 .footer {
+  display: flex;
+  justify-content: space-between;
   padding: 20px;
   background-color: #005662;
 }
 
 /* Section Contacts */
+.contacts {
+  width: 33%;
+}
+
 .contacts__list {
   display: flex;
   margin-top: 20px;
@@ -276,6 +282,10 @@ body {
 }
 
 /* Section My repository */
+.repository {
+  width: 33%;
+}
+
 .repository__image {
   width: 50px;
   height: 50px;
@@ -288,4 +298,9 @@ body {
 
 .repository__image {
   margin-right: 10px;
+}
+
+/* Aside RS School */
+.rsschool {
+  width: 33%;
 }
