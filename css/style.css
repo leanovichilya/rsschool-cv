@@ -329,6 +329,11 @@ body {
 
 .rsschool__image {
   height: 50px;
+  transition: transform .5s;
+}
+
+.rsschool__image:hover {
+  transform: scale(1.1);
 }
 
 .repository__description {
