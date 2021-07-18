@@ -256,14 +256,11 @@ body {
 
 /* Footer */
 .footer {
+  padding: 20px;
   background-color: #005662;
 }
 
 /* Section Contacts */
-.contacts {
-  padding: 20px;
-}
-
 .contacts__list {
   display: flex;
   margin-top: 20px;
@@ -276,4 +273,19 @@ body {
 .contacts__icon {
   width: 30px;
   height: 30px;
+}
+
+/* Section My repository */
+.repository__image {
+  width: 50px;
+  height: 50px;
+}
+
+.repository__link {
+  display: flex;
+  align-items: center;
+}
+
+.repository__image {
+  margin-right: 10px;
 }
