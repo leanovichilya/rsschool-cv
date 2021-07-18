@@ -253,3 +253,27 @@ body {
   font-weight: 900;
   color: #ffffff;
 }
+
+/* Footer */
+.footer {
+  background-color: #005662;
+}
+
+/* Section Contacts */
+.contacts {
+  padding: 20px;
+}
+
+.contacts__list {
+  display: flex;
+  margin-top: 20px;
+}
+
+.contacts__item {
+  margin-right: 10px;
+}
+
+.contacts__icon {
+  width: 30px;
+  height: 30px;
+}
