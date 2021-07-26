@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Title</title>
+    <title>CV Leanovich Ilya</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -14,13 +14,13 @@
         <nav class="header__navigation navigation">
           <ul class="navigation__list">
             <li class="navigation__item">
-              <a class="navigation__link" href="#">Portfolio</a>
+              <a class="navigation__link" href="#skills">Skills</a>
             </li>
             <li class="navigation__item">
-              <a class="navigation__link" href="#">About</a>
+              <a class="navigation__link" href="#education">Education</a>
             </li>
             <li class="navigation__item">
-              <a class="navigation__link" href="#">Contact</a>
+              <a class="navigation__link" href="#projects">Projects</a>
             </li>
           </ul>
         </nav>
@@ -29,13 +29,40 @@
 
       <!-- Start Main -->
       <main class="main">
+        <!-- Start section Info -->
+        <section class="info">
+
+          <div class="info__avatar">
+            <img
+              src="assets/img/photo.jpg"
+              alt="Photo Leanovich Ilya"
+              class="info__photo"
+            />
+          </div>
+
+          <ul class="info__list">
+            <li class="info__item">
+              <a class="info__link" href="tel:+375257414527">
+                Phone / Viber - +375257414527
+              </a>
+            </li>
+            <li class="info__item">
+              <a class="info__link" href="skype:leanovich.ilya?chat">
+                Skype - +375257414527 / leanovich.ilya
+              </a>
+            </li>
+            <li class="info__item">
+              <a class="info__link" href="mailto:leanovich.ilya@gmail.com">
+                E-mail - leanovich.ilya@gmail.com
+              </a>
+            </li>
+          </ul>
+
+        </section>
+        <!-- End section Info -->
+
         <!-- Start section About-me -->
         <section class="about-me">
-          <img
-            src="assets/img/photo.jpg"
-            alt="Photo Leanovich Ilya"
-            class="about-me__photo"
-          />
           <h2 class="about-me__name">Ilya Leanovich</h2>
           <h3 class="about-me__profession">Web developer</h3>
           <p class="about-me__description">
@@ -49,7 +76,7 @@
         <!-- Start Profile -->
         <div class="profile">
           <!-- Start section code -->
-          <section class="experience">
+          <section class="experience" id="skills">
             <div class="experience__skills skills">
               <h2 class="skills__title">My skills:</h2>
               <ul class="skills__list">
@@ -90,7 +117,7 @@ matrix
           <!-- End section code -->
 
           <!-- Start section education -->
-          <section class="education">
+          <section class="education" id="education">
             <div class="education__study study">
               <h2 class="study__title">Education:</h2>
               <ul class="study__list">
@@ -153,13 +180,17 @@ matrix
                 </li>
               </ul>
             </div>
+
+            <div class="education__english english">
+              <h2 class="english__title">English level <span>A1</span></h2>
+            </div>
           </section>
           <!-- End section education -->
         </div>
         <!-- End Profile -->
 
         <!-- Start Projects -->
-        <section class="projects">
+        <section class="projects" id="projects">
           <h2 class="projects__title">My projects</h2>
 
           <div class="slider__wrapper">

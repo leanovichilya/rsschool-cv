@@ -1,6 +1,10 @@
 @import 'reset.css';
 @import './fonts.css';
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #81b9bf;
@@ -57,36 +61,70 @@ body {
   color: #ffe8b8;
 }
 
-/* Section about-me */
-.about-me {
+/* Section Info */
+.info {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  padding: 120px 20px 90px;
+  padding: 10% 20px 0 20px;
   background-color: #ffe8b8;
-  color: #005662;
 }
 
-.about-me__photo {
-  max-width: 300px;
+.info__photo {
+  max-width: 250px;
   height: auto;
-  border: 5px solid #005662;
+  border: 3px solid #005662;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
 }
 
+.info__list {
+  width: 40%;
+}
+
+.info__item {
+  margin-bottom: 5px;
+}
+
+.info__item:last-child {
+  margin-bottom: 0;
+}
+
+.info__link {
+  display: block;
+  padding: 10px;
+  border: 2px solid #005662;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-weight: 700;
+  color: #005662;
+  transition: all .5s;
+}
+
+.info__link:hover {
+  color: #4fb3be;
+  border-color: #4fb3be;
+}
+
+/* Section About-me */
+.about-me {
+  padding: 20px 20px 10%;
+  background-color: #ffe8b8;
+  color: #005662;
+}
+
 .about-me__name {
   margin-top: 20px;
   font-size: 30px;
-  font-weight: 700;
+  text-align: center;
 }
 
 .about-me__profession {
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 20px;
-  font-weight: 700;
+  text-align: center;
 }
 
 .about-me__description {
@@ -195,6 +233,16 @@ body {
 
 .solutions__item {
   margin-top: 10px;
+}
+
+/* Block English */
+.english__title {
+  font-size: 30px;
+  margin-top: 10%;
+}
+
+.english__title span {
+  text-decoration: underline;
 }
 
 /* Section Projects */
