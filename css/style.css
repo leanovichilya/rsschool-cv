@@ -1,6 +1,10 @@
 @import 'reset.css';
 @import './fonts.css';
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #81b9bf;
