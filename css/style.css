@@ -525,6 +525,10 @@ body {
   }
 
   .rsschool {
+    background-color: #ffe8b8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
     text-align: center;
   }
 
