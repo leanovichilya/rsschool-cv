@@ -400,6 +400,19 @@ body {
   .info__list {
     font-size: 14px;
   }
+
+  /* Section Experience */
+  .skills__title,
+  .code__title,
+  .study__title,
+  .solutions__title,
+  .english__title {
+    font-size: 26px;
+  }
+
+  .code__example {
+    font-size: 12px;
+  }
 }
 
 /* Media 620px */
@@ -462,5 +475,15 @@ body {
 
   .info__item:first-child {
     margin-top: 0;
+  }
+
+  /* Block Profile */
+  .profile {
+    flex-direction: column;
+  }
+
+  .experience,
+  .education {
+    width: 100%;
   }
 }
