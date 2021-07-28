@@ -24,6 +24,7 @@ body {
 
 .wrapper {
   max-width: 960px;
+  min-width: 320px;
   margin: 0 auto;
   box-shadow: 0 0 20px 0 #000000;
 }
@@ -380,15 +381,6 @@ body {
   transform: scale(1.1);
 }
 
-.repository__description {
-  color: #ffffff;
-  transition: color 0.5s;
-}
-
-.repository__description:hover {
-  color: #ffe8b8;
-}
-
 /* Media 720px */
 @media screen and (max-width: 720px) {
   /* Header */
@@ -414,6 +406,21 @@ body {
   .code__example {
     font-size: 12px;
   }
+
+  /* Footer */
+  .contacts__icon {
+    width: 25px;
+    height: 25px;
+  }
+
+  .repository__image {
+    width: 25px;
+    height: 25px;
+  }
+
+  .rsschool__image {
+    height: 45px;
+  }
 }
 
 /* Media 620px */
@@ -430,6 +437,11 @@ body {
 
   .info__list {
     font-size: 13px;
+  }
+
+  /* Footer */
+  .rsschool__image {
+    height: 40px;
   }
 }
 
@@ -492,5 +504,45 @@ body {
   .projects {
     padding-right: 0;
     padding-left: 0;
+  }
+
+  /* Footer */
+  .contacts__title,
+  .repository__title {
+    font-size: 14px;
+    margin-right: 20px;
+  }
+
+  .contacts,
+  .repository {
+    display: flex;
+    align-items: center;
+  }
+
+  .repository,
+  .rsschool {
+    margin-top: 20px;
+  }
+
+  .rsschool {
+    text-align: center;
+  }
+
+  .contacts__list,
+  .repository__list {
+    margin-top: 0;
+  }
+}
+
+/* Media 460px */
+@media screen and (max-width: 560px) {
+  .footer {
+    flex-wrap: wrap;
+  }
+
+  .repository,
+  .contacts,
+  .rsschool {
+    width: 100%;
   }
 }
