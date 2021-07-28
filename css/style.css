@@ -406,7 +406,8 @@ body {
   .code__title,
   .study__title,
   .solutions__title,
-  .english__title {
+  .english__title,
+  .projects__title {
     font-size: 26px;
   }
 
@@ -485,5 +486,11 @@ body {
   .experience,
   .education {
     width: 100%;
+  }
+
+  /* Section Projects */
+  .projects {
+    padding-right: 0;
+    padding-left: 0;
   }
 }
