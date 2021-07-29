@@ -305,32 +305,29 @@ body {
 .footer {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 20px;
   background-color: #005662;
 }
 
 /* Section Contacts */
 .contacts {
-  width: 40%;
+  width: 38%;
+  margin-right: 20px;
 }
 
 .contacts__list {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+  grid-gap: 10px;
   margin-top: 20px;
 }
 
 .contacts__item {
-  margin-right: 10px;
   transition: transform 0.5s;
 }
 
 .contacts__item:hover {
   transform: translateY(-5px);
-}
-
-.contacts__item:last-child {
-  margin-right: 0;
 }
 
 .contacts__icon {
@@ -340,7 +337,9 @@ body {
 
 /* Section My repository */
 .repository {
-  width: 40%;
+  max-width: 38%;
+  min-width: 120px;
+  margin-right: 20px;
 }
 
 .repository__list {
@@ -370,10 +369,12 @@ body {
 /* Aside RS School */
 .rsschool {
   width: 20%;
+  min-width: 190px; 
 }
 
 .rsschool__image {
-  height: 50px;
+  width: 100%;
+  height: auto;
   transition: transform 0.5s;
 }
 
@@ -417,10 +418,6 @@ body {
     width: 25px;
     height: 25px;
   }
-
-  .rsschool__image {
-    height: 45px;
-  }
 }
 
 /* Media 620px */
@@ -437,11 +434,6 @@ body {
 
   .info__list {
     font-size: 13px;
-  }
-
-  /* Footer */
-  .rsschool__image {
-    height: 40px;
   }
 }
 
@@ -513,18 +505,29 @@ body {
     margin-right: 20px;
   }
 
-  .contacts,
-  .repository {
+  .contacts {
     display: flex;
     align-items: center;
+    margin-right: 0;
+  }
+
+  .contacts__title {
+    width: 20%;
+  }
+
+  .contacts__list {
+    width: 75%;
   }
 
   .repository,
   .rsschool {
+    display: flex;
+    align-items: center;
     margin-top: 20px;
   }
 
   .rsschool {
+    justify-content: center;
     background-color: #ffe8b8;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -535,6 +538,10 @@ body {
   .contacts__list,
   .repository__list {
     margin-top: 0;
+  }
+
+  .rsschool__image {
+    max-height: 50px;
   }
 }
 
@@ -548,5 +555,13 @@ body {
   .contacts,
   .rsschool {
     width: 100%;
+  }
+
+  .contacts__title {
+    width: 25%;
+  }
+
+  .contacts__list {
+    width: 75%;
   }
 }
