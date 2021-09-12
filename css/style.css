@@ -183,12 +183,14 @@ body {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  background-color: #00838e;
+  background-color: #00363a;
   line-height: 20px;
   white-space: pre-wrap;
 }
 
 .javascript {
+  padding: 0;
+  background-color: transparent;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
