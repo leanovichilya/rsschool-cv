@@ -188,6 +188,12 @@ body {
   white-space: pre-wrap;
 }
 
+.javascript {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
 /* Section education */
 .education {
   background-color: #ffffff;
@@ -369,7 +375,7 @@ body {
 /* Aside RS School */
 .rsschool {
   width: 20%;
-  min-width: 190px; 
+  min-width: 190px;
 }
 
 .rsschool__image {
