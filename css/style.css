@@ -46,7 +46,7 @@ body {
 .menu {
   position: absolute;
   right: 5%;
-  top: 7.5%;
+  top: 30px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
