@@ -228,8 +228,9 @@ body {
   white-space: pre-wrap;
 }
 
-.javascript {
-  padding: 0;
+.code__example .javascript {
+  padding-top: 0;
+  padding-bottom: 0;
   background-color: transparent;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
