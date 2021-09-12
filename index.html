@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>CV Leanovich Ilya</title>
+    <link rel="stylesheet"
+          href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/nord.min.css">
+
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -97,7 +100,7 @@
             <div class="experience__code code">
               <h2 class="code__title">Code examples:</h2>
               <pre class="code__example">
-              <code>
+              <code class="javascript">
 module.exports = function towelSort(matrix) {
   if (!Array.isArray(matrix)
       || matrix.length === 0) {
@@ -197,18 +200,28 @@ matrix
             <div class="projects__slider slider">
               <ul class="slider__line">
                 <li>
-                  <img
-                    class="slider__image"
-                    src="assets/projects/portfolio.jpg"
-                    alt="Portfolio Leonovich"
-                  />
+                  <a
+                          href="https://rolling-scopes-school.github.io/leanovichilya-JSFEPRESCHOOL/museum/"
+                          target="_blank"
+                  >
+                    <img
+                            class="slider__image"
+                            src="assets/projects/louvre.jpg"
+                            alt="Portfolio Leonovich"
+                    />
+                  </a>
                 </li>
                 <li>
-                  <img
-                    class="slider__image"
-                    src="assets/projects/photo.jpg"
-                    alt="Cat project"
-                  />
+                  <a
+                          href="https://rolling-scopes-school.github.io/leanovichilya-JSFEPRESCHOOL/photofilter/"
+                          target="_blank"
+                  >
+                    <img
+                            class="slider__image"
+                            src="assets/projects/photofilter.jpg"
+                            alt="Photofilter project"
+                    />
+                  </a>
                 </li>
               </ul>
             </div>
@@ -344,6 +357,8 @@ matrix
       </footer>
       <!-- End Footer -->
 
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script>
       <script src="js/slider.js"></script>
     </div>
   </body>
