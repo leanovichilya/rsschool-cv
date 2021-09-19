@@ -66,10 +66,6 @@ body {
   margin-bottom: 0;
 }
 
-.menu__switch span{
-  transition: all .5s;
-}
-
 .menu__switch span:first-child{
   transform: rotate(45deg) translateY(11px);
 }
