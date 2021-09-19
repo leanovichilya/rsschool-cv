@@ -1,5 +1,47 @@
 (function () {
   document.addEventListener('DOMContentLoaded', () => {
+    const contacts = {
+      phone: {
+        link: 'tel:+375257414527',
+        text: 'Phone - +375-25-7414527',
+      },
+      skype: {
+        link: 'skype:leanovich.ilya?chat',
+        text: 'Skype - +375-25-7414527 / leanovich.ilya',
+      },
+      email: {
+        link: 'mailto:leanovich.ilya@gmail.com',
+        text: 'Email - leanovich.ilya@gmail.com',
+      },
+    }
+
+    const contactsVisible = document.querySelector('.contacts__visible');
+    const contactLinks = document.querySelectorAll('.info__link');
+    const contact = Object.keys(contacts);
+    let visible = false;
+
+    contactsVisible.addEventListener('click', evt => {
+      if(visible){
+        for (let i = 0; i < contactLinks.length; i += 1) {
+          contactLinks[i].removeAttribute('href');
+          contactLinks[i].textContent = '*****************';
+        }
+
+        visible = false;
+      } else {
+        for (let i = 0; i < contactLinks.length; i += 1) {
+          contactLinks[i].href = contacts[contact[i]].link;
+          contactLinks[i].textContent = contacts[contact[i]].text;
+        }
+
+        visible = true;
+      }
+    });
+  })
+})();
+
+(function () {
+  document.addEventListener('DOMContentLoaded', () => {
     const images = document.querySelectorAll('.slider .slider__line img');
     const sliderLine = document.querySelector('.slider__line');
     let count = 0;
@@ -43,13 +85,15 @@
 })();
 
 (function () {
-  const menu = document.querySelector('.menu');
-  const navigation = document.querySelector('.navigation');
+  document.addEventListener('DOMContentLoaded', () => {
+    const menu = document.querySelector('.menu');
+    const navigation = document.querySelector('.navigation');
 
-  menu.addEventListener('click', () => {
-    menu.classList.toggle('menu__switch');
-    navigation.classList.toggle('navigation__hide');
-  });
+    menu.addEventListener('click', () => {
+      menu.classList.toggle('menu__switch');
+      navigation.classList.toggle('navigation__hide');
+    });
+  })
 })();
 
 (function () {
