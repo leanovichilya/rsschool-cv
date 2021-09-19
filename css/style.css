@@ -380,17 +380,24 @@ body {
 }
 
 .slider__button {
+  padding: 5px;
   position: absolute;
-  background-color: transparent;
-  width: 5%;
-  height: 100%;
-  opacity: 0;
+  background-image: url('../assets/icons/arrow.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: #ffe8b8;
+  width: 50px;
+  height: 50px;
+  top: calc(50% - 25px);
   transition: all 0.5s;
+  opacity: 0.5;
 }
 
+
+
 .slider__wrapper:hover .slider__button {
-  background-color: #005662;
-  opacity: 0.5;
+  opacity: 1;
 }
 
 .slider:hover .my-project {
@@ -401,19 +408,11 @@ body {
 }
 
 .button__prev {
-  top: 0;
-  left: 0;
+  transform: rotate(180deg);
 }
 
 .button__next {
-  top: 0;
   right: 0;
-}
-
-.arrow {
-  font-size: 30px;
-  font-weight: 900;
-  color: #ffffff;
 }
 
 /* Footer */
