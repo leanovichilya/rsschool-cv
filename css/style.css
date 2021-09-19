@@ -116,11 +116,13 @@ body {
   justify-content: space-around;
   align-items: center;
   gap: 5%;
-  padding: 10% 10% 0;
+  padding: 10% 20px 0 5%;
   background-color: #ffe8b8;
 }
 
 .info__avatar{
+  display: flex;
+  justify-content: center;
   width: 50%;
 }
 
@@ -134,7 +136,7 @@ body {
 }
 
 .info__contacts-wrapper{
-  width: 100%;
+  width: 50%;
 }
 
 .info__contacts{
@@ -641,6 +643,10 @@ body {
   /* Section info */
   .info {
     flex-direction: column;
+  }
+
+  .info__contacts-wrapper{
+    width: 100%;
   }
 
   .info__contacts {
