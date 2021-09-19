@@ -24,7 +24,7 @@
       if(visible){
         for (let i = 0; i < contactLinks.length; i += 1) {
           contactLinks[i].removeAttribute('href');
-          contactLinks[i].textContent = '*****************';
+          contactLinks[i].innerHTML = '&#10059;&#10059;&#10059;&#10059;&#10059;&#10059;&#10059;&#10059;&#10059;&#10059;&#10059;&#10059;';
         }
 
         visible = false;
