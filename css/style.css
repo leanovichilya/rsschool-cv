@@ -120,7 +120,7 @@ body {
   background-color: #ffe8b8;
 }
 
-.info__avatar{
+.info__avatar {
   display: flex;
   justify-content: center;
   width: 50%;
@@ -135,24 +135,26 @@ body {
   border-radius: 50%;
 }
 
-.info__contacts-wrapper{
+.info__contacts-wrapper {
   width: 50%;
 }
 
-.info__contacts{
+.info__contacts {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
 }
 
-.info__contacts-title{
+.info__contacts-title {
+  width: 40%;
   font-size: 30px;
   color: #005662;
   text-align: center;
 }
 
-.info__contacts-button{
+.info__contacts-button {
+  width: 40%;
   padding: 5px;
   background-color: transparent;
   font-size: 1rem;
@@ -161,9 +163,15 @@ body {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
+  transition: all 0.2s;
 }
 
-.info__list{
+.info__contacts-button:hover {
+  color: #4fb3be;
+  border-color: #4fb3be;
+}
+
+.info__list {
   margin-top: 20px;
 }
 
@@ -528,11 +536,6 @@ body {
 .rsschool__image {
   width: 100%;
   height: auto;
-  transition: transform 0.5s;
-}
-
-.rsschool__image:hover {
-  transform: scale(1.1);
 }
 
 /* Media 720px */
@@ -567,11 +570,11 @@ body {
     padding-bottom: 10px;
   }
 
-  .my-project__title{
+  .my-project__title {
     font-size: 1.5rem;
   }
 
-  .my-project__link{
+  .my-project__link {
     margin-top: 5px;
     padding: 7px;
   }
@@ -646,7 +649,7 @@ body {
     flex-direction: column;
   }
 
-  .info__contacts-wrapper{
+  .info__contacts-wrapper {
     width: 100%;
   }
 
@@ -688,17 +691,17 @@ body {
     padding-bottom: 5px;
   }
 
-  .my-project__title{
+  .my-project__title {
     font-size: 1.2rem;
   }
 
-  .my-project__link{
+  .my-project__link {
     margin-top: 3px;
     padding: 4px;
     font-size: calc(1rem - 4px);
   }
 
-  .my-project__technologies{
+  .my-project__technologies {
     font-size: calc(1rem - 4px);
   }
 
