@@ -27,12 +27,16 @@
           contactLinks[i].innerHTML = '&#10059;'.repeat(12);
         }
 
+        contactsVisible.textContent = 'Show contacts';
+
         visible = false;
       } else {
         for (let i = 0; i < contactLinks.length; i += 1) {
           contactLinks[i].href = contacts[contact[i]].link;
           contactLinks[i].textContent = contacts[contact[i]].text;
         }
+
+        contactsVisible.textContent = 'Hide contacts';
 
         visible = true;
       }
