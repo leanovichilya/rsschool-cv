@@ -14,3 +14,18 @@
 4. E-mail - leanovich.ilya@gmail.com
 
    </details>
+
+### Skills
+
+- HTML
+- CSS
+- JavaScript
+- Git
+- PhpStorm
+- VSCode
+- Bootstrap
+- BEM
+- Gulp
+- SASS
+- Pug
+
